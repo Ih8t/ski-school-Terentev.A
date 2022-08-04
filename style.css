@@ -161,15 +161,13 @@ body {
   padding: 170px 0;
   margin: 0;
   background-color: rgba(102, 209, 255, .1);
-}
-
-.info-title {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 80px;
 }
+
 
 .lead-title {
   font-family: 'Oswald';
@@ -180,12 +178,23 @@ body {
   text-align: center;
 }
 
+
 .lead-list {
-  display: inline-flex;
+   display: inline-flex;
   flex-wrap: nowrap;
+  width: 486px; 
+  height: 186px;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.info-card {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid red;
+  list-style: none;
+ 
 }
 
 
