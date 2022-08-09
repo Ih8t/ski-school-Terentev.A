@@ -117,6 +117,7 @@ body {
   font-weight: 500;
   font-size: 28px;
   color: #060D10;
+  text-decoration: none;
 }
 
 
@@ -180,21 +181,18 @@ body {
 
 
 .lead-list {
-   display: inline-flex;
-  flex-wrap: nowrap;
-  width: 486px; 
-  height: 186px;
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
   padding: 0;
+  margin: 0 -15px;
   list-style: none;
+  
 }
 
-.info-card {
-  display: flex;
-  justify-content: space-between;
-  border: 5px solid red;
-  list-style: none;
- 
+.option-items {
+  width: 33.33%;
+  padding: 15px;
+
 }
 
 
